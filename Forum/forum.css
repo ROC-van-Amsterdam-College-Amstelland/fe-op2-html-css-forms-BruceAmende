@@ -7,9 +7,9 @@ body{
 
 h1{
     display: flex;
-    color: green;
+    color: white;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
 #forum{
@@ -23,32 +23,56 @@ h1{
 }
 
 main{
-    height: 800px;
+    height: 450px;
     width: 500px;
-    border: solid 1px black;
+    border: solid 3px black;
+    background-color: gray;
 }
 .form-container{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
 h4{
 
     width: 300px;
+    margin-left: 130px;
+    color: white;
 }
 
 button{
-    margin-left: 300px;
+    margin-left: 125px;
     box-shadow: black 5px;
-    background-color: chartreuse;
+    background-color: blue;
+    width: 250px;
+    margin-top: 40px;
+    color: white;
     
 }
 
 button:hover {
 
-    background-color: white;
+    background-color: black;
 
+}
+
+
+#tekst2{
+    margin-left: 130px;
+    color: white;
+}
+
+.links {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+a{
+
+    margin-top: 20px;
+    margin-left: 125px;
 }
 
